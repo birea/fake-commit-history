@@ -40,12 +40,12 @@ npx fake-git-history --startDate "2020/09/01" --endDate "2020/09/30"
 
 
 
->git clone "Project url"  
->git remote set-url origin " Your repo url"  
->  
->git filter-branch -f --env-filter "   
->GIT_AUTHOR_NAME='amTechie'  
->GIT_AUTHOR_EMAIL='alexlee.bizz@gmail.com'  
->GIT_COMMITTER_NAME='amTechie'   
->GIT_COMMITTER_EMAIL='alexlee.bizz@gmail.com'" HEAD  
+git clone "Project url"  
+git remote set-url origin " Your repo url"  
+  
+git filter-branch -f --env-filter "   
+GIT_AUTHOR_NAME='birea'  
+GIT_AUTHOR_EMAIL='perv.expert610@outlook.com'  
+GIT_COMMITTER_NAME='birea'   
+GIT_COMMITTER_EMAIL='perv.expert610@outlook.com'" HEAD  
 
